@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ударный режим</string>
+    <string name="accessibility_service_label">Блокировка отвлекающих приложений</string>
+    <string name="accessibility_service_description">Позволяет приложению блокировать доступ к другим приложениям во время режима фокуса.</string>
+    <string name="home_title">Ударный режим</string>
+    <string name="home_subtitle">Сегодня нужно выполнить всего одну задачу.</string>
+    <string name="start_focus">Начать ударный режим</string>
+    <string name="current_streak">Текущий стрик</string>
+    <string name="best_streak">Лучший</string>
+    <string name="days">дней</string>
+    <string name="today_focus">Сегодня в фокусе</string>
+    <string name="blocked_title">Сначала закончи ударный режим.</string>
+    <string name="blocked_remaining">Осталось %d минут</string>
+    <string name="blocked_return">Вернуться</string>
+    <string name="focus_remaining">осталось</string>
+    <string name="focus_end">Завершить</string>
+    <string name="focus_pause">Пауза</string>
+</resources>
