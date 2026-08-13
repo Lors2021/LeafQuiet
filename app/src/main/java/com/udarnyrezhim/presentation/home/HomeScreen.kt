@@ -16,6 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.udarnyrezhim.presentation.components.*
+import com.udarnyrezhim.presentation.theme.*
 
 @Composable
 fun HomeScreen(
