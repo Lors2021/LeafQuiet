@@ -134,7 +134,7 @@ fun FocusActiveScreen(
                     contentAlignment = Alignment.Center
                 ) {
                     Icon(
-                        imageVector = Icons.Default.Pause,
+                        imageVector = Icons.Filled.Pause,
                         contentDescription = null,
                         tint = Color(0xFFF5F0E8),
                         modifier = Modifier.size(24.dp)
