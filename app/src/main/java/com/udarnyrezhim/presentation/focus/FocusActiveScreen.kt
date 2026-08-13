@@ -9,9 +9,6 @@ import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Pause
-import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -133,11 +130,10 @@ fun FocusActiveScreen(
                         ) { isPaused = !isPaused },
                     contentAlignment = Alignment.Center
                 ) {
-                    Icon(
-                        imageVector = Icons.Default.Pause,
-                        contentDescription = null,
-                        tint = Color(0xFFF5F0E8),
-                        modifier = Modifier.size(24.dp)
+                    Text(
+                        text = if (isPaused) "▶" else "II",
+                        fontSize = 20.sp,
+                        color = Color(0xFFF5F0E8)
                     )
                 }
 
