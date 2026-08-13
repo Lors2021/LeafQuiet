@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("com.google.dagger.hilt.android")
     id("org.jetbrains.kotlin.kapt")
 }
 
@@ -59,10 +58,6 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
 
     implementation("androidx.datastore:datastore-preferences:1.0.0")
-    implementation("com.google.dagger:hilt-android:2.50")
-    kapt("com.google.dagger:hilt-compiler:2.50")
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
-
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("androidx.glance:glance-appwidget:1.0.0")
 }
