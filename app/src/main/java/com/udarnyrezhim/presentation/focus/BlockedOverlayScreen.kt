@@ -73,7 +73,7 @@ fun BlockedOverlayScreen(
 
             Box(
                 modifier = Modifier
-                    .padding(top = 32.dp)
+                    .padding(32.dp)
                     .scale(scale)
                     .background(OliveMedium, RoundedCornerShape(20.dp))
                     .clickable(
