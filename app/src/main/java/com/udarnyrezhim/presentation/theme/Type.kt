@@ -2,23 +2,12 @@ package com.udarnyrezhim.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.udarnyrezhim.R
 
-val PlayfairDisplay = FontFamily(
-    Font(R.font.playfair_display_regular, FontWeight.Normal),
-    Font(R.font.playfair_display_semi_bold, FontWeight.SemiBold),
-    Font(R.font.playfair_display_bold, FontWeight.Bold)
-)
-
-val Inter = FontFamily(
-    Font(R.font.inter_regular, FontWeight.Normal),
-    Font(R.font.inter_medium, FontWeight.Medium),
-    Font(R.font.inter_semi_bold, FontWeight.SemiBold)
-)
+val PlayfairDisplay = FontFamily.Serif
+val Inter = FontFamily.SansSerif
 
 val AppTypography = Typography(
     displayLarge = TextStyle(
