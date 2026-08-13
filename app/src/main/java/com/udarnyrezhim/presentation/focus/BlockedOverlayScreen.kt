@@ -54,14 +54,14 @@ fun BlockedOverlayScreen(
                 fontFamily = PlayfairDisplay,
                 color = Color(0xFFF5F0E8),
                 textAlign = TextAlign.Center,
-                modifier = Modifier.padding(top = 24.dp, horizontal = 32.dp)
+                modifier = Modifier.padding(24.dp, 32.dp, 24.dp, 0.dp)
             )
 
             Text(
                 text = "Осталось $remainingMinutes минут",
                 fontSize = 16.sp,
                 color = Color(0xFFF5F0E8).copy(alpha = 0.6f),
-                modifier = Modifier.padding(top = 12.dp)
+                modifier = Modifier.padding(0.dp, 12.dp, 0.dp, 0.dp)
             )
 
             val interactionSource = remember { MutableInteractionSource() }
@@ -73,7 +73,7 @@ fun BlockedOverlayScreen(
 
             Box(
                 modifier = Modifier
-                    .padding(32.dp)
+                    .padding(0.dp, 32.dp, 0.dp, 0.dp)
                     .scale(scale)
                     .background(OliveMedium, RoundedCornerShape(20.dp))
                     .clickable(
